@@ -1,0 +1,66 @@
+html,
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+.App {
+    height: 100%;
+    width: 100%;
+}
+
+.App-header {
+    background-color: #282c34;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: rgb(38, 97, 244);
+    color: beige;
+    border-radius: 2%;
+    border: none;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    width: fit-content;
+    text-transform: uppercase;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.input,
+.input:focus {
+    border: none;
+    border-bottom: #d5d3d3 1px solid;
+    background-color: white;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px;
+}
+
+.label {
+    color: #686767;
+}

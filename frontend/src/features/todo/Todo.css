@@ -1,0 +1,47 @@
+.todoContainer {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.todo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    border-bottom: #d5d3d3 1px solid;
+}
+
+.todoForm {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.completedTodo {
+    text-decoration: line-through;
+}
+
+.buttonContainer {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.todoInput {
+    width: 100%;
+}
+
+.deleteButton {
+    background-color: white;
+    border: 1px solid rgb(130, 60, 60);
+    color: rgb(130, 60, 60);
+}
+
+.completeButton {
+    background-color: white;
+    border: 1px solid rgb(91, 136, 107);
+    color: rgb(91, 136, 107);
+}
